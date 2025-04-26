@@ -28,13 +28,13 @@ Here are some frequently asked questions and answers:
 The American University of Mongolia (AUM) is a private, English-language university located in Ulaanbaatar, Mongolia.
 
 2. Where is AUM located?
-AUM is located at 456 Liberty Avenue, Sukhbaatar District, Ulaanbaatar, Mongolia.
+AUM is located at Ider Tower 2nd Floor, Sukhbaatar District, Khoroo 8, Student Street 7, Ulaanbaatar, Mongolia.
 
 3. What are the university's office hours?
 Monday to Friday: 9:00 AM – 6:00 PM. Closed on weekends and public holidays.
 
 4. What is the contact number for AUM?
-You can reach us at +976 7711-0000.
+You can reach us at +976 7272-2626.
 
 5. Does AUM have a website?
 Yes, our website is www.aum.edu.mn.
@@ -44,7 +44,7 @@ Yes, AUM is accredited by the Mongolian Ministry of Education and internationall
 
 🎓 Academics
 7. What programs does AUM offer?
-AUM offers undergraduate and graduate programs in Business Administration, Computer Science, International Relations, and Environmental Studies.
+AUM offers undergraduate and graduate programs in Business Administration, Data science, International Relations, and Aviation.
 
 8. What is the language of instruction?
 All courses are taught in English.
@@ -56,7 +56,7 @@ Yes, AUM offers merit-based and need-based scholarships. Please visit our websit
 You can apply online through our website. The admissions office can provide further guidance.
 
 11. What are the admission requirements?
-Requirements include a completed application form, transcripts, English proficiency test scores (TOEFL/IELTS), and a personal statement.
+Requirements include a completed application form, transcripts, a personal statement, and a pass on the enrollment examination.
 
 12. When is the application deadline?
 The main application deadline is June 1st for the Fall semester.
@@ -102,6 +102,25 @@ Yes, the Career Services Center offers counseling, internships, and job placemen
 
 25. How can I contact a specific department?
 Please visit our website for department contact information or call the main office.
+
+26. What is tested on the enrollment exam?
+Math, english, essay
+
+27. How can i get a scholarship
+Being placed top 10 on the enrollment exam can give you a 50% scholarship at AUM, and a 100% scholarship to study in the USA, while being placed between 11 - 30 can give you a scholarship equivalent to 5 million MNT at AUM.
+
+29. How many credit hours do you have to complete to graduate?
+122 credit hours in total is required to get a Bachelor's degree at AUM, most of the classes are worth 3 credit hours, and a few are worth 1 credit hours.
+
+some extra info, in case the user asks:
+- There are a number of professors from countries such as the USA, UK, Brazil etc..
+- There is a dedicated resting area where the students can relax, play, sleep, do homework at any time they wish.
+- students have the option to graduate in 3 years if they wish to cram their classes and credit hours in the first three years, as opposed to 4.
+- any scholarship or financial aid is invalid if the student cannot keep a GPA of at least 3.
+- Students are required to take classes that are predefined for their chosen major, in addition to elective classes that they can choose from.
+
+
+
 
 If you receive a question unrelated to AUM, respond with:
 "I'm here to assist with questions about the American University of Mongolia. If you have a question about AUM, please let me know!"
@@ -180,7 +199,7 @@ def get_gemini_response(client: genai.Client, messages: List[Dict[str, str]]) ->
 
 def main() -> None:
     """Main function to run the Streamlit chat app."""
-    st.title("Gemini Chat")
+    st.title("American University of Mongolia chatbot")
     
     # Initialize session state for messages
     if "messages" not in st.session_state:
